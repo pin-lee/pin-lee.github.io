@@ -1,16 +1,13 @@
-/* Gruvbox Dark Colors */
-
-/* Background */
 body {
   background-color: #282828;
-}
-
-/* Text */
-body, p, h1, h2, h3, h4, h5, h6 {
+  text-align: center;
   color: #ebdbb2;
 }
 
-/* Links */
+h1 {
+  text-align: center;
+}
+
 a {
   color: #83a598;
 }
@@ -19,12 +16,10 @@ a:hover {
   color: #b8bb26;
 }
 
-/* Borders */
 hr {
   border-color: #3c3836;
 }
 
-/* Buttons */
 button {
   background-color: #928374;
   color: #fbf1c7;
@@ -35,7 +30,6 @@ button:hover {
   background-color: #bdae93;
 }
 
-/* Input Fields */
 input[type="text"],
 input[type="email"],
 input[type="password"],
@@ -45,14 +39,12 @@ textarea {
   border: 1px solid #504945;
 }
 
-/* Alerts */
 .alert {
   background-color: #cc241d;
   color: #fbf1c7;
   border: 1px solid #fb4934;
 }
 
-/* Code Blocks */
 pre {
   background-color: #1d2021;
   color: #ebdbb2;
