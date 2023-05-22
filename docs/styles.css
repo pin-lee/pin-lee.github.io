@@ -220,3 +220,13 @@ pre {
 code {
   color: #83a598;
 }
+
+.babbage_right { content: url(assets/babbage_right.png) }
+.babbage_left { content: url(assets/babbage_left.png) }
+.floatLeft { float: left; }
+.floatRight { float: right; }
+.main_header {
+  vertical-align: middle;
+  text-align: center;
+}
+
