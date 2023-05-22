@@ -230,3 +230,11 @@ code {
   text-align: center;
 }
 
+.babbage_title { /*render babbage and title side by side*/
+  display: flex;
+  justify-content: center;
+}
+.babbage_title > h1 { /*padding between the title and babbage*/
+  padding-left: 20px;
+  padding-right: 20px;
+}
